@@ -60,8 +60,8 @@ header {
     background-color: #634534;
     color: white;
     height: 40px;
-    align-items: center;
-
+    align-items: center;    
+    box-shadow: 10px 10px 20px rgba(26, 26, 26, 0.582);
 }
 
 .barraMenu ul a {
@@ -74,4 +74,14 @@ header {
 
 .barraMenu ul a:hover {
     border-bottom: solid #009898 4px;
+}
+
+/* -------------Carrossel--------------- */
+
+.carrossel{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 490px;
+  
 }
