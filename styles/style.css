@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sedan+SC&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +12,8 @@ body {
     background-color: #F2DDB6;
 }
 
+/* -------------Cabeçalho--------------- */
+
 header {
     background-color: #3B3235;
     color: white;
@@ -24,27 +25,30 @@ header {
     gap: 700px;
 }
 
-.logoTituloContainer{
+.logoTituloContainer {
     display: flex;
     align-items: center;
 }
 
-.loginContainer{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.tituloUser{
-    font-size: 20px;
-}
-
-.tituloCabecalho{
+.tituloCabecalho {
     font-family: "Sedan SC", serif;
     align-content: start;
     text-align: left;
     font-size: 35px;
 }
+
+
+.loginContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.tituloUser {
+    font-size: 20px;
+}
+
+/* -------------Barra do Menu--------------- */
 
 .barraMenu ul {
     text-decoration: none;
@@ -70,7 +74,4 @@ header {
 
 .barraMenu ul a:hover {
     border-bottom: solid #009898 4px;
-    
-
-
 }
