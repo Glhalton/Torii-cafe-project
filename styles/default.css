@@ -3,6 +3,8 @@
 @import url(reset.css);
 @import url(style.css);
 @import url(header.css);
+@import url(main.css);
+
 
 :root {
 
@@ -12,6 +14,7 @@
     --marrom: #3B3235;
     --bege: #C69C75;
     --amarelo: #F2DDB6;
+    --marrom2: #634534;
 
 /* FONTES */
 

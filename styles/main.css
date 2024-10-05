@@ -1,14 +1,33 @@
-.main{
+
+.introducao{
+    
+    align-items: center;
     display: flex;
     flex-direction: row;
+    padding: 7rem;
+    padding-left: 18rem; 
+    padding-right: 18rem; 
+    justify-content: space-around;
+    gap:3rem;
 }
 
-.secao__texto{
+.titulo1{
+    font-family: var(--japonesa);
+    text-align: center;
+    font-size: 50px;   
+}
+
+.informacao{
+    font-size: 1.4rem;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    width: 50%;
+    gap: 2rem;
 }
 
-.secao__texto__titulo{
-
+.introducao__img{
+    border-radius: 100%;
+    box-shadow: 20px 0px 20px 1px #000000;  
     
 }
