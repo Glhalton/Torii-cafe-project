@@ -1,57 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Torii Café</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/default.css">
     <link rel="icon" type="image/webp" href="img/Logo.webp">
 </head>
-
 <body>
-    <header>
-        <div  class="logoTituloContainer">
-            <img src="img/Logo.webp"  alt="Logo_Torii_cafe" width="130px">
-            <h1 class="tituloCabecalho">Torii Café</h1>
+<header>
+    <div class="cabecalho">
+        <div  class="cabecalho__logo">
+            <img class="cabecalho__logo__img" src="img/Logo.webp"  alt="Logo_Torii_cafe" width="130px">
+            <h2 class="cabecalho__logo__titulo">Torii Café</h2>
         </div>
-        <div class="loginContainer">
-            <h2 class="tituloUser">Entrar | Cadastrar</h2>
-            <img src="img/user-icone.png" width="60px">
+        <div class="cabecalho__login">
+            <ul class="cabecalho__login__list">
+                <a class="cabecalho__login__link" href="#">
+                    <li>Cadastrar</li>
+                </a>
+                <a class="cabecalho__login__link" href="#">
+                    <li>Entrar</li>
+                </a>
+            </ul>
+            <!-- <img src="img/user-icone.png" width="60px"> -->
         </div>
-    </header>
-    <nav>    
-        <div class="barraMenu">
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Café</a></li>
-            <li><a href="#">Cafeteiras</a></li>
-            <li><a href="#">Artigos</a></li>
-            <li><a href="#">Guias</a></li>
-            <li><a href="#">Mais</a></li>
+    </div>
+    <nav class="navegacao">    
+        <ul class="navegacao__list">
+            <a href="#"><li class="navegacao__link-active">Inicio</li></a>
+            <a href="#"><li class="navegacao__link">Café</li></a>
+            <a href="#"><li class="navegacao__link">Cafeteiras</li></a>
+            <a href="#"><li class="navegacao__link">Artigos</li></a>
+            <a href="#"><li class="navegacao__link">Guias</li></a>
+            <a href="#"><li class="navegacao__link">Mais</li></a>
         </ul>
-        </div>
     </nav>
-    <main>
-        <section>
-            <div>
-                <h1>Sua cafeteria online</h1>
+</header>
+<main>
+    <section class="introducao" >
+            <div class="informacao">
+                <h1 class="titulo1">Sua cafeteria online</h1>
                 <p>Bem-vindo à Torii Café, uma cafeteria online inspirada na serenidade e beleza dos portões torii japoneses! Aqui, nossa missão é oferecer uma experiência que vai além do café. Cada xícara é preparada com ingredientes selecionados e é um convite para uma jornada de sabores e cultura oriental.
-                   Com uma seleção variada de cafés artesanais e chás japoneses, nossa cafeteria combina a tradição milenar com a conveniência moderna, entregando até você um momento de tranquilidade e contemplação, onde quer que esteja. Entre por nosso "portão" virtual e descubra um mundo de aromas e experiências que transformam cada gole em um ritual único.</p>
-                <img src="img/Logo2.png" alt="Café sobre portão Torii">
+                    Com uma seleção variada de cafés artesanais e chás japoneses, nossa cafeteria combina a tradição milenar com a conveniência moderna, entregando até você um momento de tranquilidade e contemplação, onde quer que esteja. Entre por nosso "portão" virtual e descubra um mundo de aromas e experiências que transformam cada gole em um ritual único.</p>
             </div>
-        </section>
-        <section>
-            <!--
-            <div class="carrossel">
-                <img src="img/Banner2.jpg">
-            </div>
-            -->
-        </section>
-    </main>
-    <footer>
+            
+            <div class="img"><img class="introducao__img" src="img/Logo2.png" alt="Café sobre portão Torii"></div>
+    </section>
+    <section >
+        <!--
+        <div class="carrossel">
+            <img src="img/Banner2.jpg">
+        </div>
+        -->
+    </section>
+</main>
+<footer>
 
-    </footer>
+</footer>
 </body>
 
 </html>
