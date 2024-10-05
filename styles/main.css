@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.secao__texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.secao__texto__titulo{
+
+    
+}
